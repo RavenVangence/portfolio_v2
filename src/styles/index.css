@@ -1,0 +1,15 @@
+:root {
+  --bgc-primary: aliceblue;
+  --bgc-secondary: black;
+
+  --poppins-font: 'Poppins', sans-serif; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+body {
+  font-family: var(--poppins-font);
+}

@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-container {
+    /* border: 1px solid red; */
+}
+.nav-container > ul {
+    padding: 0 30px;
+    justify-content: space-around;
+}
+.black-sideband {
+    position: absolute;
+    width: 1500px;
+    height: 400px;
+    z-index: -1;
+    background: linear-gradient(to right, #8963BA, #A9FFF7, #5AFF15);
+
+    transform: rotateZ(-35deg);
+    top: -30vh;
+    left: -30vw;
+    
+}
