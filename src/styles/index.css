@@ -4,7 +4,11 @@
 
   --poppins-font: 'Poppins', sans-serif; 
 }
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .container {
   width: 80%;
   max-width: 1024px;
