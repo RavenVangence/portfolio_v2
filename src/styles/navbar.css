@@ -19,13 +19,27 @@ ul {
     width: 1500px;
     height: 400px;
     z-index: -1;
-    background: linear-gradient(to right, #8963BA, #A9FFF7, #5AFF15);
+    background: linear-gradient(to right, #8963BA,#A9FFF7, #5AFF15, #F7EC09);
 
     transform: rotateZ(-35deg);
     top: -30vh;
     left: -30vw;
-    
+    background-size: 400%;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+    animation: anime 20s ease infinite alternate;
 }
+@keyframes anime {
+    0% {
+        background-position: 0 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0 50%;
+    }
+}
+
 img {
     width: 300px;
 }
@@ -33,13 +47,12 @@ img {
     display: flex;
     justify-content: space-between;
 }
-.dashboard-par {
+.dashboard-left-container {
     text-align: justify;
     width: 60%;
     align-self: center;
     font-size: 1.2rem;
     line-height: 2.2rem;
-    /* border: 1px solid red; */
 }
 
 /* Icons */
@@ -47,11 +60,10 @@ img {
     display: flex;
     justify-content: space-between;
     padding: 2.5rem 0;
-    /* padding: 30px 0; */
 }
 .dashboard-icon {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.8rem;
+    height: 1.8rem;
 }
 #react-icon {
     color: #61dbfb;
@@ -86,3 +98,31 @@ img {
 #framer-icon {
     color: #0c0c0c;
 }
+
+/* buttons */
+
+.dashboard-btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0;
+}
+.dashboard-btn {
+    width: 15rem;
+    height: 2.5rem;
+    outline: 2px solid #8F43EE;
+    font-weight: 600;
+    border: none;
+    color: #8F43EE;
+    font-family: var(--poppins-font);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 2px;
+    background: transparent;
+    cursor: pointer;
+}
+/* #hire-me-btn {
+    margin-right: 3rem;
+}
+#resume-btn {
+    margin-left: 3rem;
+} */
