@@ -118,7 +118,12 @@ img {
     letter-spacing: 2px;
     padding: 2px;
     background: transparent;
+    transition: all .8s;
+}
+.dashboard-btn:hover {
     cursor: pointer;
+    color: aliceblue;
+    background-color: #8F43EE;
 }
 /* #hire-me-btn {
     margin-right: 3rem;

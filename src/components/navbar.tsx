@@ -1,9 +1,8 @@
 import profileImg from '../assets/profile_transparent.png'; 
 import { FaReact, FaHtml5, FaGit, FaNodeJs } from "react-icons/fa";
-import { SiRedux, SiMongodb, SiExpress } from 'react-icons/si';
-import { IoLogoCss3, IoLogoJavascript} from 'react-icons/io';
+import { SiRedux, SiMongodb, SiExpress, SiTypescript, SiJavascript } from 'react-icons/si';
+import { IoLogoCss3} from 'react-icons/io';
 import { FiFramer } from 'react-icons/fi';
-import { TbBrandTypescript} from 'react-icons/tb';
 
 
 function NavbarAndDashboard() {
@@ -27,13 +26,13 @@ function NavbarAndDashboard() {
                         <FaHtml5 id='html-icon' className='dashboard-icon'/>
                         <FaReact id='react-icon' className='dashboard-icon'/>
                         <FaGit id='git-icon' className='dashboard-icon'/>
-                        <TbBrandTypescript id='typescript-icon' className='dashboard-icon'/>
+                        <SiTypescript id='typescript-icon' className='dashboard-icon'/>
                         <SiExpress id='express-icon' className='dashboard-icon'/>
                         <SiMongodb id='mongodb-icon' className='dashboard-icon'/>
                         <IoLogoCss3 id='css-icon' className='dashboard-icon'/>
                         <FaNodeJs id='nodejs-icon' className='dashboard-icon'/>
                         <SiRedux id='redux-icon' className='dashboard-icon'/>
-                        <IoLogoJavascript id='javascript-icon' className='dashboard-icon'/>
+                        <SiJavascript id='javascript-icon' className='dashboard-icon'/>
                         <FiFramer id='framer-icon' className='dashboard-icon'/>
                     </div>
                     <div className='dashboard-btn-container'>
