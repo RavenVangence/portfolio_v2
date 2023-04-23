@@ -13,8 +13,6 @@ function NavbarAndDashboard() {
             <nav className='nav-container'>
                 <ul>
                     <li><h1>Dashboard</h1></li>
-                    <li><h1>Projects</h1></li>
-                    <li><h1>Contact</h1></li>
                 </ul>
             </nav>
             <div className='dashboard-container'>

@@ -1,0 +1,87 @@
+.contact-container {
+    margin: 0 0 8rem 0;
+    padding: 2rem 0;
+    height: 20vh;
+}
+
+.contact-nav-container {
+    font-size: 1.4rem;
+}
+
+.contact-nav-container ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.contact-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 3rem 0;
+}
+.contact-content {
+    transform: translateY(6rem);
+}
+
+.contact-layout {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-layout a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.contact-layout p {
+    margin-left: 1rem;
+    color: #8963BA;
+}
+
+.github-icon {
+    color: #000000;
+}
+.linkedin-icon {
+    color: #0077B5;
+}
+.upwork-icon {
+    color: #0caa00;
+}
+.email-icon {
+    color: #4285F4;
+}
+.second-sideband {
+    position: absolute;
+    width: 1200px;
+    height: 400px;
+    z-index: -1;
+    background: linear-gradient(to right, #8963BA, #A9FFF7, #5AFF15, #F7EC09);
+
+    transform: rotateZ(35deg) translateY(-58vh);
+    /* top: -31vh; */
+    right: -21vw;
+    background-size: 400%;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
+    animation: anime1 20s ease infinite alternate;
+}
+
+@keyframes anime1 {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}

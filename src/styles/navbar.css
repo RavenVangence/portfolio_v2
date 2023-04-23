@@ -22,8 +22,8 @@ ul {
     background: linear-gradient(to right, #8963BA,#A9FFF7, #5AFF15, #F7EC09);
 
     transform: rotateZ(-35deg);
-    top: -30vh;
-    left: -30vw;
+    top: -31vh;
+    left: -31vw;
     background-size: 400%;
     /* animation: name duration timing-function delay iteration-count direction fill-mode play-state; */
     animation: anime 20s ease infinite alternate;
@@ -125,9 +125,23 @@ img {
     color: aliceblue;
     background-color: #8F43EE;
 }
-/* #hire-me-btn {
-    margin-right: 3rem;
+.profile-img::before {
+    position: absolute;
+    transform: translateY(7rem);
+    content: '';
+    background-color: #F7EC09;
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+    z-index: -1;
 }
-#resume-btn {
-    margin-left: 3rem;
-} */
+.profile-img::after {
+    position: absolute;
+    transform: translateY(12rem) translateX(-9rem);
+    content: '';
+    background-color: #A9FFF7;
+    width: 300px;
+    height: 300px;
+    border-radius: 400px;
+    z-index: -2;
+}
