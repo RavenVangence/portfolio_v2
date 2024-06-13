@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { FaGithub, FaRegEye } from "react-icons/fa"
 
 type projectData = {
